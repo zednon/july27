@@ -1,0 +1,67 @@
+header {
+    background-color: navy;
+    height: auto;
+}
+
+.main {
+    background-color: lightgray;
+    height: auto;
+}
+
+footer {
+    background-color: aqua;
+height: 300px;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.topNavBarLi {
+display: inline-block;
+padding: 10px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+color:bisque
+}
+
+.topNavBarLi a {
+text-decoration: none;
+color: yellow;
+
+}
+
+.topNavBarLi a:hover {
+color: red;
+}
+
+.topNavBar
+{
+    text-align: center;
+}
+
+.landingPageImg {
+    width: 100%;
+    height: auto;
+}
+
+.landingPageGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.infoLandingPage {
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: solid 4px black;
+    padding: 3px 2%;
+    margin: 10px 1% 3px 5%;
+}
